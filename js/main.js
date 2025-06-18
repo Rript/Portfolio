@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
       event.preventDefault(); // чтобы не прыгал вверх страницы
 
       const link = document.createElement('a');
-      link.href = '../resources/Emelyanov_CV.pdf';
+      link.href = './resources/Emelyanov_CV.pdf';
       link.download = 'Emelyanov_CV.pdf';
       document.body.appendChild(link);
       link.click();
